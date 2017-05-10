@@ -1,0 +1,39 @@
+Rectilinear polygon
+
+1000
+
+128000
+
+0
+
+0
+
+<img align="right" vspace="20" hspace="20" src="http://acm.sdibt.edu.cn//incimages/1708.jpg" alt="" />
+<p>Given is</p>
+<it>n</it>
+<p>points with integer coordinates in the plane.  Is it is possible to construct a simple, that is non-intersecting, rectilinear polygon with the given points as vertices?  In a rectilinear polygon there are at least 4 vertices and every edge is either horizontal or vertical;  each vertex is an endpoint of exactly one horizontal edge and one vertical edge.  There are no holes in a polygon.</p>
+<p>The first line of input is an integer giving the number of cases that follow.  The input of each case starts with an integer 4 ≤ <it>n</it> ≤ 100000 giving the number of points for this test case. It is followed by <it>n</it> pairs of integers specifying the <it>x</it> and <it>y</it> coordinates of the points for this case.</p>
+<p>The output should contain one line for each case on input.  Each line should contain one integer number giving the length of the rectilinear  polygon passing throught the given points when it exists; otherwise, it should contain <tt>-1</tt>.</p>
+
+<p>Please Input Input Here</p>
+
+<p>Please Input Output Here</p>
+
+1
+8
+1 2
+1 0
+2 1
+2 2
+3 2
+3 1
+4 0
+4 2
+
+
+12
+
+30 September, 2006 - Waterloo local contest
+
+
+

@@ -1,0 +1,68 @@
+A Strange Dog called Vagaa I
+
+5000
+
+2222
+
+0
+
+0
+
+<p>
+	Leyni has a strange dog called Vagaa and it is just born.(We call it 0 years old.)
+</p>
+<div>
+	1.Vagaa will lay a small dog each year till it is 2 years old.(It will lay when it's 2 years old and won't lay when it's 3 years old.)<br />
+2.Vagaa will live forever.(Because it believes in ChunGe.)<br />
+3.The same as its child.(Its child will lay and live as the same as Vagaa.)
+</div>
+<div>
+	&nbsp;
+</div>
+<div>
+	For example,<br />
+0 year : 1 dog. (Vagaa(0 years old).)<br />
+1 year : 2 dog. (Vagaa(1 years old) and its child(0 years old).)<br />
+2 year : 4 dog. (Vagaa(2) and its child(1) will lay 2 dogs(0).)<br />
+3 year : 7 dog. (Vagaa(3) won't lay. Its child(2) will lay 1 dog(0). The other 2 dogs(1) will lay 2 dogs(0).)<br />
+4 year : 12 dog. (...)
+</div>
+<div>
+	&nbsp;
+</div>
+<div>
+	Now, Leyni want to know how many dogs he has in total when Vagaa is N years old.
+</div>
+
+<p>
+	There are multiple test cases. The first line of input is an integer T indicating the number of test cases. Then T test cases follow.<br />
+For each test case:<br />
+Line 1. An Integer N.(0≤N≤40);
+</p>
+
+<p>
+	For each test case:<br />
+Line 1. Output the number of dogs Leyni has in total.
+</p>
+
+<p>
+	5<br />
+0<br />
+1<br />
+2<br />
+3<br />
+4
+</p>
+
+<p>
+	1<br />
+2<br />
+4<br />
+7<br />
+12
+</p>
+
+哈理工2011春季校赛
+
+
+

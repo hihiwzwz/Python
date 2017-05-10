@@ -1,0 +1,54 @@
+ACboy needs your help again!
+
+1000
+
+32768
+
+0
+
+0
+
+ACboy was kidnapped!! <br>he miss his mother very much and is very scare now.You can't image how dark the room he was put into is, so poor :(.<br>   As a smart ACMer, you want to get ACboy out of the monster's labyrinth.But when you arrive at  the gate of the maze, the monste say :&quot; I have heard that you are very clever, but if can't solve my problems, you will die with ACboy.&quot;<br>  The problems of the monster is shown on the wall:<br>  Each problem's first line is a integer N(the number of commands), and a word &quot;FIFO&quot; or &quot;FILO&quot;.(you are very happy because you know &quot;FIFO&quot; stands for &quot;First In First Out&quot;, and &quot;FILO&quot; means &quot;First In Last Out&quot;).<br>  and the following N lines, each line is &quot;IN M&quot; or &quot;OUT&quot;, (M represent a integer).<br>  and the answer of a problem is a passowrd of a door, so if you want to rescue ACboy, answer the problem carefully!
+
+The input contains multiple test cases.<br>The first line has one integer,represent the number oftest cases.<br>And the input of each subproblem are described above.
+
+For each command &quot;OUT&quot;, you should output a integer depend on the word is &quot;FIFO&quot; or &quot;FILO&quot;, or a word &quot;None&quot; if you don't have any integer.
+
+4
+4 FIFO
+IN 1
+IN 2
+OUT
+OUT
+4 FILO
+IN 1
+IN 2
+OUT
+OUT
+5 FIFO
+IN 1
+IN 2
+OUT
+OUT
+OUT
+5 FILO
+IN 1
+IN 2
+OUT
+IN 3
+OUT
+
+1
+2
+2
+1
+1
+2
+None
+2
+3
+
+2007省赛集训队练习赛（1） 
+
+
+

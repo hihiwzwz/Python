@@ -1,0 +1,52 @@
+Genuine Messages
+
+1000
+
+32768
+
+0
+
+0
+
+<p>
+	<br />
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;To&nbsp;communicate&nbsp;with&nbsp;HQ,&nbsp;spies&nbsp;send&nbsp;electronic&nbsp;messages&nbsp;over&nbsp;the&nbsp;Information&nbsp;Superhighway&nbsp;using&nbsp;a&nbsp;protocol&nbsp;called&nbsp;SMTP&nbsp;(Secret&nbsp;Message&nbsp;Translation&nbsp;Protocol).&nbsp;To&nbsp;ensure&nbsp;that&nbsp;these&nbsp;messages&nbsp;are&nbsp;genuine&nbsp;and&nbsp;have&nbsp;not,&nbsp;for&nbsp;example,&nbsp;been&nbsp;sent&nbsp;by&nbsp;an&nbsp;evil&nbsp;adversary,&nbsp;every&nbsp;message&nbsp;is&nbsp;modified&nbsp;in&nbsp;such&nbsp;a&nbsp;way&nbsp;that&nbsp;it&nbsp;looks&nbsp;like&nbsp;there&nbsp;was&nbsp;noise&nbsp;on&nbsp;the&nbsp;communication&nbsp;line,&nbsp;or&nbsp;the&nbsp;sender&nbsp;was&nbsp;very&nbsp;nervous&nbsp;while&nbsp;typing&nbsp;the&nbsp;message.&nbsp;However,&nbsp;the&nbsp;mutation&nbsp;algorithm&nbsp;is&nbsp;carefully&nbsp;crafted&nbsp;such&nbsp;that&nbsp;an&nbsp;imposter&nbsp;is&nbsp;very&nbsp;unlikely&nbsp;to&nbsp;replicate&nbsp;this&nbsp;particular&nbsp;effect,&nbsp;and&nbsp;it&nbsp;is&nbsp;also&nbsp;easy&nbsp;for&nbsp;field&nbsp;agents&nbsp;to&nbsp;intentionally&nbsp;insert&nbsp;a&nbsp;“mistake”&nbsp;if&nbsp;they&nbsp;are&nbsp;forced&nbsp;at&nbsp;gunpoint&nbsp;to&nbsp;write&nbsp;a&nbsp;message.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;In&nbsp;a&nbsp;correctly&nbsp;mutated&nbsp;message&nbsp;every&nbsp;third&nbsp;appearance&nbsp;of&nbsp;each&nbsp;letter&nbsp;is&nbsp;duplicated.&nbsp;For&nbsp;example,&nbsp;“HELLOTHEREEWELLLBEFINEE”&nbsp;is&nbsp;the&nbsp;correct&nbsp;mutation&nbsp;if&nbsp;the&nbsp;agent&nbsp;wanted&nbsp;to&nbsp;send&nbsp;“HELLOTHEREWELLBEFINE”.&nbsp;For&nbsp;the&nbsp;past&nbsp;few&nbsp;decades&nbsp;these&nbsp;messages&nbsp;have&nbsp;been&nbsp;checked&nbsp;by&nbsp;highly&nbsp;trained&nbsp;monkeys.&nbsp;Since&nbsp;the&nbsp;number&nbsp;of&nbsp;messages&nbsp;arriving&nbsp;at&nbsp;the&nbsp;HQ&nbsp;has&nbsp;greatly&nbsp;increased&nbsp;recently,&nbsp;they&nbsp;have&nbsp;tasked&nbsp;you&nbsp;with&nbsp;writing&nbsp;an&nbsp;automated&nbsp;program&nbsp;that&nbsp;can&nbsp;alert&nbsp;HQ&nbsp;when&nbsp;a&nbsp;message&nbsp;is&nbsp;definitely&nbsp;fake&nbsp;and&nbsp;not&nbsp;sent&nbsp;by&nbsp;our&nbsp;agent.
+</p>
+
+<p>
+	On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;
+</p>
+<p>
+	After&nbsp;that&nbsp;per&nbsp;test&nbsp;<span style="line-height:1.5;">case:</span>
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;a&nbsp;string&nbsp;M&nbsp;(1&nbsp;&lt;=&nbsp;length(M)&nbsp;&lt;=&nbsp;100&nbsp;000),&nbsp;consisting&nbsp;of&nbsp;uppercase&nbsp;letters&nbsp;only:&nbsp;the&nbsp;incoming&nbsp;message&nbsp;to&nbsp;check.
+</p>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;either&nbsp;“OK”&nbsp;or&nbsp;“FAKE”,&nbsp;indicating&nbsp;whether&nbsp;or&nbsp;not&nbsp;the&nbsp;message&nbsp;M&nbsp;can&nbsp;be&nbsp;the&nbsp;result&nbsp;of&nbsp;a&nbsp;correctly&nbsp;applied&nbsp;mutation&nbsp;to&nbsp;some&nbsp;(unspecified)&nbsp;original&nbsp;message.
+</p>
+<p>
+	<br />
+</p>
+
+<pre>3
+BAPC
+AABA
+ABCABCBBAAACC
+</pre>
+
+
+
+
+
+
+

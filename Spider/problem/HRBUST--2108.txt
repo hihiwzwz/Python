@@ -1,0 +1,45 @@
+Identification Codes
+
+1000
+
+32768
+
+0
+
+0
+
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;MI6&nbsp;uses&nbsp;a&nbsp;Spy&nbsp;Identification&nbsp;Code&nbsp;(SIC)&nbsp;to&nbsp;identify&nbsp;their&nbsp;spies.&nbsp;For&nbsp;example,&nbsp;J.B.[Hint 2] has&nbsp;a&nbsp;SIC&nbsp;of&nbsp;7.&nbsp;The&nbsp;SICs&nbsp;have&nbsp;been&nbsp;assigned&nbsp;to&nbsp;the&nbsp;spies&nbsp;in&nbsp;such&nbsp;a&nbsp;way&nbsp;that&nbsp;MI6&nbsp;can&nbsp;easily&nbsp;refer&nbsp;to&nbsp;any&nbsp;group&nbsp;of&nbsp;spies&nbsp;by&nbsp;using&nbsp;a&nbsp;status&nbsp;code&nbsp;that&nbsp;is&nbsp;the&nbsp;product&nbsp;of&nbsp;all&nbsp;SICs&nbsp;of&nbsp;the&nbsp;spies&nbsp;in&nbsp;the&nbsp;group.&nbsp;More&nbsp;precisely,&nbsp;the&nbsp;SICs&nbsp;are&nbsp;chosen&nbsp;in&nbsp;such&nbsp;a&nbsp;way&nbsp;that&nbsp;each&nbsp;status&nbsp;code&nbsp;&gt;=&nbsp;2&nbsp;refers&nbsp;to&nbsp;a&nbsp;unique&nbsp;group&nbsp;of&nbsp;spies,&nbsp;and&nbsp;for&nbsp;each&nbsp;group&nbsp;of&nbsp;spies&nbsp;there&nbsp;is&nbsp;a&nbsp;unique&nbsp;status&nbsp;code&nbsp;referring&nbsp;to&nbsp;it.&nbsp;
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;Write&nbsp;a&nbsp;program&nbsp;that,&nbsp;given&nbsp;a&nbsp;status&nbsp;code,&nbsp;returns&nbsp;the&nbsp;SICs&nbsp;of&nbsp;the&nbsp;spies&nbsp;that&nbsp;belong&nbsp;to&nbsp;the&nbsp;group&nbsp;corresponding&nbsp;to&nbsp;that&nbsp;status&nbsp;code.
+</p>
+
+<p>
+	On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;After&nbsp;that&nbsp;per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;an&nbsp;integer&nbsp;c&nbsp;(2&nbsp;&lt;=&nbsp;c&nbsp;&lt;=&nbsp;1000&nbsp;000&nbsp;000):&nbsp;the&nbsp;status&nbsp;code.
+</p>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;a&nbsp;space-separated&nbsp;list&nbsp;of&nbsp;SICs&nbsp;for&nbsp;the&nbsp;status&nbsp;code,&nbsp;in&nbsp;increasing&nbsp;order.
+</p>
+
+<pre>5
+7
+12
+64
+72
+1337
+</pre>
+
+
+
+
+
+
+

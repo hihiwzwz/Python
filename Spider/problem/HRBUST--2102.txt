@@ -1,0 +1,53 @@
+Cracking the Safe
+
+1000
+
+32768
+
+0
+
+0
+
+<p>
+	&nbsp; &nbsp;&nbsp;Secret&nbsp;agent&nbsp;Roger&nbsp;is&nbsp;trying&nbsp;to&nbsp;crack&nbsp;a&nbsp;safe&nbsp;containing&nbsp;evil&nbsp;Syrian&nbsp;chemical&nbsp;weapons.&nbsp;In&nbsp;order&nbsp;<span style="line-height:1.5;">to&nbsp;crack&nbsp;the&nbsp;safe,&nbsp;Roger&nbsp;needs&nbsp;to&nbsp;insert&nbsp;a&nbsp;key&nbsp;into&nbsp;the&nbsp;safe.&nbsp;The&nbsp;key&nbsp;consists&nbsp;of&nbsp;four&nbsp;digits.&nbsp;</span><span style="line-height:1.5;">Roger&nbsp;has&nbsp;received&nbsp;a&nbsp;list&nbsp;of&nbsp;possible&nbsp;keys&nbsp;from&nbsp;his&nbsp;informants&nbsp;that&nbsp;he&nbsp;needs&nbsp;to&nbsp;try&nbsp;out.&nbsp;Trying&nbsp;</span><span style="line-height:1.5;">out&nbsp;the&nbsp;whole&nbsp;list&nbsp;will&nbsp;take&nbsp;too&nbsp;long,&nbsp;so&nbsp;Roger&nbsp;needs&nbsp;to&nbsp;find&nbsp;a&nbsp;way&nbsp;to&nbsp;reduce&nbsp;the&nbsp;list.&nbsp;</span>
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;A&nbsp;valid&nbsp;key&nbsp;satisfies&nbsp;a&nbsp;certain&nbsp;condition,&nbsp;which&nbsp;we&nbsp;call&nbsp;the&nbsp;24&nbsp;condition.&nbsp;Four&nbsp;digits&nbsp;that&nbsp;<span style="line-height:1.5;">satisfy&nbsp;the&nbsp;24&nbsp;condition&nbsp;can&nbsp;be&nbsp;manipulated&nbsp;using&nbsp;addition,&nbsp;subtraction,&nbsp;multiplication,&nbsp;division&nbsp;and&nbsp;parentheses,&nbsp;in&nbsp;such&nbsp;a&nbsp;way,&nbsp;that&nbsp;the&nbsp;end&nbsp;result&nbsp;equals&nbsp;24.</span>
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;For&nbsp;example,&nbsp;the&nbsp;key&nbsp;(4,&nbsp;7,&nbsp;8,&nbsp;8)&nbsp;satisfies&nbsp;the&nbsp;24&nbsp;condition,&nbsp;because&nbsp;(7 - 8/8)*4&nbsp;=&nbsp;24.&nbsp;The&nbsp;key&nbsp;<span style="line-height:1.5;">(1,1,2,4)&nbsp;does&nbsp;not&nbsp;satisfy&nbsp;the&nbsp;24&nbsp;condition,&nbsp;nor&nbsp;does&nbsp;(1, 1,1,1).&nbsp;These&nbsp;keys&nbsp;cannot&nbsp;possibly&nbsp;be&nbsp;</span><span style="line-height:1.5;">the&nbsp;valid&nbsp;key&nbsp;and&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;be&nbsp;tried.</span>
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;Write&nbsp;a&nbsp;program&nbsp;that&nbsp;takes&nbsp;the&nbsp;list&nbsp;of&nbsp;possible&nbsp;keys&nbsp;and&nbsp;outputs&nbsp;for&nbsp;each&nbsp;key&nbsp;whether&nbsp;it&nbsp;<span style="line-height:1.5;">satisfies&nbsp;the&nbsp;24&nbsp;condition&nbsp;or&nbsp;not.</span>
+</p>
+
+<p>
+	On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;
+</p>
+<p>
+	After&nbsp;that&nbsp;per&nbsp;test&nbsp;<span style="line-height:1.5;">case:</span>
+</p>
+<p>
+	&nbsp;one&nbsp;line&nbsp;with&nbsp;four&nbsp;space-separated&nbsp;integers&nbsp;a, b, c, d&nbsp;(1&lt;= &nbsp;a, b, c, d &lt;=&nbsp;9):&nbsp;a&nbsp;possible&nbsp;key.
+</p>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	&nbsp;one&nbsp;line&nbsp;with&nbsp;either&nbsp;“YES”&nbsp;or&nbsp;“NO”,&nbsp;indicating&nbsp;whether&nbsp;the&nbsp;key&nbsp;satisfies&nbsp;the&nbsp;24&nbsp;condition&nbsp;<span style="line-height:1.5;">or&nbsp;not.</span>
+</p>
+
+<pre>4
+4 7 8 8
+1 1 2 4
+1 1 1 1
+1 3 4 6
+</pre>
+
+
+
+
+
+
+

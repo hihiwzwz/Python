@@ -1,0 +1,43 @@
+女人的眼泪
+
+1000
+
+65536
+
+0
+
+0
+
+<p>
+	Leyni听一位老人说不能相信男人的承诺和女人的眼泪。<br />
+	不过Leyni认为，眼泪中的盐浓度等于该眼泪的可信度。<br />
+	现已知眼泪中盐的质量M(g)，眼泪的容积V(ml)，需要你求得该眼泪的可信度P(g/ml)<br />
+	其中（P = M / V）</p>
+
+
+<p>
+	有多组测试数据，第一行是一个整数T代表着测试数据的数量，接下来有T组测试数据<br />
+	对于每组测试数据：<br />
+	第一行.两个数字M, V（1&le;M, V&le;10<span lang="EN-US" style="font-size: 12pt; font-family: 'times new roman'; mso-bidi-font-size: 11.0pt; mso-ansi-language: en-us; mso-fareast-language: zh-cn; mso-bidi-language: ar-sa; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt"><sup><font color="#000000">6</font></sup></span>）</p>
+
+
+<p>
+	对于每组测试数据：<br />
+	第一行.输出该眼泪的可信度P，精确到小数点后4位&nbsp;</p>
+
+
+<p>
+	2<br />
+	10 100<br />
+	15 20</p>
+
+
+<p>
+	0.1000<br />
+	0.7500</p>
+
+
+哈理工2011春季校赛
+
+
+

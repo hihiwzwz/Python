@@ -1,0 +1,90 @@
+Keys
+
+1000
+
+65536
+
+0
+
+0
+
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;John&nbsp;is&nbsp;on&nbsp;a&nbsp;mission&nbsp;to&nbsp;steal&nbsp;some&nbsp;documents&nbsp;of&nbsp;importance&nbsp;from&nbsp;a&nbsp;one-story&nbsp;building.&nbsp;He&nbsp;has&nbsp;managed&nbsp;to&nbsp;get&nbsp;hold&nbsp;of&nbsp;a&nbsp;detailed&nbsp;floor&nbsp;plan&nbsp;of&nbsp;the&nbsp;building,&nbsp;indicating&nbsp;the&nbsp;locations&nbsp;of&nbsp;all&nbsp;the&nbsp;documents.&nbsp;There&nbsp;are&nbsp;doors&nbsp;in&nbsp;the&nbsp;building&nbsp;that&nbsp;require&nbsp;a&nbsp;key&nbsp;to&nbsp;be&nbsp;opened.&nbsp;John&nbsp;has&nbsp;some&nbsp;keys&nbsp;in&nbsp;his&nbsp;possession,&nbsp;and&nbsp;there&nbsp;are&nbsp;some&nbsp;keys&nbsp;in&nbsp;the&nbsp;building&nbsp;itself.&nbsp;Can&nbsp;you&nbsp;help&nbsp;him&nbsp;figure&nbsp;out&nbsp;how&nbsp;many&nbsp;documents&nbsp;he&nbsp;can&nbsp;steal?
+</p>
+
+<p>
+	On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;
+</p>
+<p>
+	After&nbsp;that&nbsp;per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;two&nbsp;space-separated&nbsp;integers&nbsp;h&nbsp;and&nbsp;w&nbsp;(2&nbsp;&lt;=&nbsp;h;&nbsp;w&nbsp;&lt;=&nbsp;100):&nbsp;the&nbsp;height&nbsp;and&nbsp;width&nbsp;of&nbsp;the&nbsp;map.
+</p>
+<p>
+	#&nbsp;h&nbsp;lines&nbsp;with&nbsp;w&nbsp;characters&nbsp;describing&nbsp;the&nbsp;building:
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;##&nbsp;’.’&nbsp;is&nbsp;an&nbsp;empty&nbsp;space.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;##&nbsp;’*’&nbsp;is&nbsp;an&nbsp;impenetrable&nbsp;wall.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;##&nbsp;’$’&nbsp;is&nbsp;a&nbsp;document&nbsp;that&nbsp;John&nbsp;would&nbsp;like&nbsp;to&nbsp;steal.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;##&nbsp;an&nbsp;uppercase&nbsp;letter&nbsp;is&nbsp;a&nbsp;door.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;##&nbsp;a&nbsp;lowercase&nbsp;letter&nbsp;is&nbsp;a&nbsp;key&nbsp;that&nbsp;opens&nbsp;all&nbsp;doors&nbsp;corresponding&nbsp;to&nbsp;its&nbsp;uppercase&nbsp;equivalent.
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;a&nbsp;string&nbsp;consisting&nbsp;of&nbsp;distinct&nbsp;lowercase&nbsp;letters:&nbsp;the&nbsp;keys&nbsp;that&nbsp;John&nbsp;has&nbsp;in&nbsp;his&nbsp;possession.&nbsp;If&nbsp;he&nbsp;has&nbsp;no&nbsp;keys,&nbsp;the&nbsp;line&nbsp;contains&nbsp;“0”&nbsp;instead.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;John&nbsp;can&nbsp;freely&nbsp;move&nbsp;around&nbsp;the&nbsp;outside&nbsp;of&nbsp;the&nbsp;building.&nbsp;For&nbsp;any&nbsp;given&nbsp;door,&nbsp;the&nbsp;number&nbsp;of&nbsp;available&nbsp;keys&nbsp;that&nbsp;open&nbsp;it&nbsp;can&nbsp;be&nbsp;zero,&nbsp;one,&nbsp;or&nbsp;more&nbsp;than&nbsp;one.&nbsp;For&nbsp;any&nbsp;given&nbsp;key,&nbsp;the&nbsp;number&nbsp;of&nbsp;doors&nbsp;that&nbsp;it&nbsp;opens&nbsp;can&nbsp;be&nbsp;zero,&nbsp;one&nbsp;or&nbsp;more&nbsp;than&nbsp;one.&nbsp;Keys&nbsp;can&nbsp;be&nbsp;reused.
+</p>
+<p>
+	<br />
+</p>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;an&nbsp;integer:&nbsp;the&nbsp;total&nbsp;number&nbsp;of&nbsp;documents&nbsp;that&nbsp;John&nbsp;can&nbsp;steal.
+</p>
+
+<pre>3
+5 17
+*****************
+.............**$*
+*B*A*P*C**X*Y*.X.
+*y*x*a*p**$*$**$*
+*****************
+cz
+5 11
+*.*********
+*...*...*x*
+*X*.*.*.*.*
+*$*...*...*
+***********
+0
+7 7
+*ABCDE*
+X.....F
+W.$$$.G
+V.$$$.H
+U.$$$.J
+T.....K
+*SQPML*
+irony
+</pre>
+
+
+
+
+
+
+

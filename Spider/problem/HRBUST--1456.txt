@@ -1,0 +1,160 @@
+Matryoshka Dolls
+
+1000
+
+65536
+
+0
+
+0
+
+<p>
+	Adam&nbsp;just&nbsp;got&nbsp;a&nbsp;box&nbsp;full&nbsp;of&nbsp;Matryoshka&nbsp;dolls&nbsp;(Russian&nbsp;traditional)&nbsp;from&nbsp;his&nbsp;friend&nbsp;Matryona.&nbsp;When&nbsp;he&nbsp;opened&nbsp;the&nbsp;box,&nbsp;tons&nbsp;of&nbsp;dolls&nbsp;poured&nbsp;out&nbsp;of&nbsp;the&nbsp;box&nbsp;with&nbsp;a&nbsp;memo&nbsp;from&nbsp;her:
+</p>
+<p>
+	Hi&nbsp;Adam,&nbsp;I&nbsp;hope&nbsp;you&nbsp;enjoy&nbsp;these&nbsp;dolls.&nbsp;But&nbsp;sorry,&nbsp;I&nbsp;didn't&nbsp;have&nbsp;enough&nbsp;time&nbsp;to&nbsp;sort&nbsp;them&nbsp;out.&nbsp;You'll&nbsp;notice&nbsp;that&nbsp;each&nbsp;doll&nbsp;has&nbsp;a&nbsp;hollow&nbsp;hole&nbsp;at&nbsp;the&nbsp;bottom&nbsp;which&nbsp;allows&nbsp;it&nbsp;to&nbsp;contain&nbsp;a&nbsp;smaller&nbsp;doll&nbsp;inside.
+</p>
+<p>
+	...
+</p>
+<p>
+	Yours,
+</p>
+<p>
+	Matryona
+</p>
+<p>
+	Adam,&nbsp;who&nbsp;already&nbsp;has&nbsp;so&nbsp;many&nbsp;things&nbsp;in&nbsp;his&nbsp;showcase&nbsp;already,&nbsp;decides&nbsp;to&nbsp;assemble&nbsp;the&nbsp;dolls&nbsp;to&nbsp;reduce&nbsp;the&nbsp;number&nbsp;of&nbsp;outermost&nbsp;dolls.&nbsp;The&nbsp;dolls&nbsp;that&nbsp;Matryona&nbsp;sent&nbsp;have&nbsp;the&nbsp;same&nbsp;shape&nbsp;but&nbsp;dierent&nbsp;sizes.&nbsp;That
+</p>
+<p>
+	is,&nbsp;doll&nbsp;i&nbsp;can&nbsp;be&nbsp;represented&nbsp;by&nbsp;a&nbsp;single&nbsp;number&nbsp;hi&nbsp;denoting&nbsp;its&nbsp;height.&nbsp;Doll&nbsp;i&nbsp;can&nbsp;t&nbsp;inside&nbsp;another&nbsp;doll&nbsp;j&nbsp;if&nbsp;and&nbsp;only&nbsp;if&nbsp;hi&nbsp;&lt;&nbsp;hj&nbsp;.&nbsp;Also,&nbsp;the&nbsp;dolls&nbsp;are&nbsp;designed&nbsp;such&nbsp;that&nbsp;each&nbsp;doll&nbsp;may&nbsp;contain&nbsp;at&nbsp;most&nbsp;one&nbsp;doll&nbsp;right
+</p>
+<p>
+	inside&nbsp;it.&nbsp;While&nbsp;Adam&nbsp;is&nbsp;stacking&nbsp;his&nbsp;gigantic&nbsp;collection&nbsp;of&nbsp;Matryoshka&nbsp;dolls,&nbsp;can&nbsp;you&nbsp;write&nbsp;a&nbsp;program&nbsp;to&nbsp;compute&nbsp;the&nbsp;minimum&nbsp;number&nbsp;of&nbsp;outermost&nbsp;dolls&nbsp;so&nbsp;that&nbsp;he&nbsp;can&nbsp;gure&nbsp;out&nbsp;how&nbsp;much&nbsp;space&nbsp;he&nbsp;needs&nbsp;in&nbsp;his&nbsp;showcase?
+</p>
+
+<p>
+	The&nbsp;input&nbsp;consists&nbsp;of&nbsp;multiple&nbsp;test&nbsp;cases.&nbsp;Each&nbsp;test&nbsp;case&nbsp;begins&nbsp;with&nbsp;a&nbsp;line&nbsp;with&nbsp;an&nbsp;integer&nbsp;N,&nbsp;1 &lt;= N &lt;=&nbsp;10^5,
+</p>
+<p>
+	denoting&nbsp;the&nbsp;number&nbsp;of&nbsp;Matryoshka&nbsp;dolls.&nbsp;This&nbsp;is&nbsp;followed&nbsp;by&nbsp;N&nbsp;lines,&nbsp;each&nbsp;with&nbsp;a&nbsp;single&nbsp;integer&nbsp;hi,&nbsp;1 &lt;= &nbsp;hi &lt;=&nbsp;10^9,&nbsp;denoting&nbsp;the&nbsp;height&nbsp;of&nbsp;the&nbsp;ith&nbsp;doll&nbsp;in&nbsp;cm.&nbsp;Input&nbsp;is&nbsp;followed&nbsp;by&nbsp;a&nbsp;single&nbsp;line&nbsp;with&nbsp;N&nbsp;=&nbsp;0,&nbsp;which&nbsp;should&nbsp;not&nbsp;be&nbsp;processed.&nbsp;
+</p>
+<p>
+	For&nbsp;example:
+</p>
+<p>
+	4
+</p>
+<p>
+	5
+</p>
+<p>
+	7
+</p>
+<p>
+	7
+</p>
+<p>
+	3
+</p>
+<p>
+	3
+</p>
+<p>
+	10
+</p>
+<p>
+	10
+</p>
+<p>
+	10
+</p>
+<p>
+	3
+</p>
+<p>
+	10
+</p>
+<p>
+	999999999
+</p>
+<p>
+	100000000
+</p>
+<p>
+	0
+</p>
+
+<p>
+	For&nbsp;each&nbsp;test&nbsp;case,&nbsp;print&nbsp;out&nbsp;a&nbsp;single&nbsp;line&nbsp;that&nbsp;contains&nbsp;an&nbsp;integer&nbsp;representing&nbsp;the&nbsp;minimum&nbsp;number&nbsp;of&nbsp;outermost&nbsp;dolls&nbsp;that&nbsp;can&nbsp;be&nbsp;obtained&nbsp;by&nbsp;optimally&nbsp;stacking&nbsp;the&nbsp;given&nbsp;dolls.&nbsp;
+</p>
+<p>
+	For&nbsp;example:
+</p>
+<p>
+	2
+</p>
+<p>
+	3
+</p>
+<p>
+	1
+</p>
+
+<p>
+	4
+</p>
+<p>
+	5
+</p>
+<p>
+	7
+</p>
+<p>
+	7
+</p>
+<p>
+	3
+</p>
+<p>
+	3
+</p>
+<p>
+	10
+</p>
+<p>
+	10
+</p>
+<p>
+	10
+</p>
+<p>
+	3
+</p>
+<p>
+	10
+</p>
+<p>
+	999999999
+</p>
+<p>
+	100000000
+</p>
+<p>
+	0
+</p>
+
+<p>
+	2
+</p>
+<p>
+	3
+</p>
+<p>
+	1
+</p>
+
+2010 Stanford Local ACM Programming Contest
+
+
+

@@ -1,0 +1,45 @@
+Eqs
+
+5000
+
+65536
+
+0
+
+0
+
+<div class="ptx" lang="en-US">
+	Consider equations having the following form: <br />
+	a1x1<sup>3</sup>+ a2x2<sup>3</sup>+ a3x3<sup>3</sup>+ a4x4<sup>3</sup>+ a5x5<sup>3</sup>=0 <br />
+	The coefficients are given integers from the interval [-50,50]. <br />
+	It is consider a solution a system (x1, x2, x3, x4, x5) that verifies the equation, xi&isin;[-50,50], xi != 0, any i&isin;{1,2,3,4,5}. <br />
+	<br />
+	Determine how many solutions satisfy the given equation.</div>
+
+
+<p>
+	For each test case :</p>
+<p>
+	Line 1:&nbsp;Five coefficients a1, a2, a3, a4, a5, separated by blanks.</p>
+<p>
+	Process to the end of file.</p>
+
+
+<p>
+	For each test case :</p>
+<p>
+	Line 1: A single integer that is the number of the solutions for the given equation.(The output will fit in 32 bit signed integers.)</p>
+
+
+<div style="font-family: courier new,courier,monospace">
+	37 29 41 43 47</div>
+
+
+<div style="font-family: courier new,courier,monospace">
+	654</div>
+
+
+
+
+
+

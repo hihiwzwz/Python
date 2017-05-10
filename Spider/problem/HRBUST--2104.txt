@@ -1,0 +1,66 @@
+Encryption
+
+1000
+
+32768
+
+0
+
+0
+
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;Alice&nbsp;thinks&nbsp;it&nbsp;is&nbsp;very&nbsp;inconvenient&nbsp;to&nbsp;have&nbsp;to&nbsp;keep&nbsp;one&nbsp;of&nbsp;her&nbsp;keys&nbsp;in&nbsp;a&nbsp;public–private&nbsp;key&nbsp;pair&nbsp;secret.&nbsp;Therefore&nbsp;she&nbsp;invented&nbsp;a&nbsp;public–public&nbsp;key&nbsp;encryption&nbsp;scheme&nbsp;called&nbsp;the&nbsp;Really&nbsp;Secure&nbsp;Algorithm&nbsp;(RSA).&nbsp;The&nbsp;algorithm&nbsp;works&nbsp;as&nbsp;follows:
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;word&nbsp;is&nbsp;a&nbsp;sequence&nbsp;of&nbsp;between&nbsp;one&nbsp;and&nbsp;ten&nbsp;capital&nbsp;letters&nbsp;(A–Z).&nbsp;A&nbsp;sentence&nbsp;is&nbsp;a&nbsp;sequence&nbsp;of&nbsp;words,&nbsp;separated&nbsp;by&nbsp;spaces.&nbsp;The&nbsp;first&nbsp;public&nbsp;key&nbsp;is&nbsp;a&nbsp;sentence&nbsp;in&nbsp;which&nbsp;each&nbsp;word&nbsp;is&nbsp;used&nbsp;at&nbsp;most&nbsp;once.&nbsp;The&nbsp;second&nbsp;public&nbsp;key&nbsp;is&nbsp;a&nbsp;sentence&nbsp;formed&nbsp;by&nbsp;applying&nbsp;a&nbsp;permutation&nbsp;p&nbsp;to&nbsp;the&nbsp;words&nbsp;in&nbsp;the&nbsp;first&nbsp;public&nbsp;key.&nbsp;The&nbsp;plaintext&nbsp;(the&nbsp;unencrypted&nbsp;message)&nbsp;is&nbsp;a&nbsp;sentence&nbsp;that&nbsp;has&nbsp;exactly&nbsp;as&nbsp;many&nbsp;words&nbsp;as&nbsp;the&nbsp;public&nbsp;keys.&nbsp;(Unlike&nbsp;for&nbsp;the&nbsp;public&nbsp;keys,&nbsp;these&nbsp;words&nbsp;are&nbsp;not&nbsp;necessarily&nbsp;unique.)&nbsp;The&nbsp;ciphertext&nbsp;(the&nbsp;encrypted&nbsp;message)&nbsp;is&nbsp;the&nbsp;sentence&nbsp;formed&nbsp;by&nbsp;applying&nbsp;the&nbsp;permutation&nbsp;p&nbsp;to&nbsp;the&nbsp;plaintext.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;Given&nbsp;the&nbsp;two&nbsp;public&nbsp;keys&nbsp;and&nbsp;the&nbsp;ciphertext,&nbsp;recover&nbsp;the&nbsp;plaintext.
+</p>
+
+<p>
+	On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;After&nbsp;that&nbsp;per&nbsp;test
+</p>
+<p>
+	case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;an&nbsp;integer&nbsp;n&nbsp;(1&nbsp;&lt;=&nbsp;n&nbsp;&lt;=&nbsp;1&nbsp;000):&nbsp;the&nbsp;number&nbsp;of&nbsp;words&nbsp;in&nbsp;each&nbsp;sentence.
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;a&nbsp;sentence:&nbsp;the&nbsp;first&nbsp;public&nbsp;key.
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;a&nbsp;sentence:&nbsp;the&nbsp;second&nbsp;public&nbsp;key.
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;a&nbsp;sentence:&nbsp;the&nbsp;ciphertext.
+</p>
+<p>
+	All&nbsp;words&nbsp;consist&nbsp;of&nbsp;at&nbsp;least&nbsp;1&nbsp;and&nbsp;at&nbsp;most&nbsp;10&nbsp;uppercase&nbsp;letters.
+</p>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;a&nbsp;sentence:&nbsp;the&nbsp;plaintext.
+</p>
+
+<pre>2
+4
+A B C D
+D A B C
+C B A P
+3
+SECURITY THROUGH OBSCURITY
+OBSCURITY THROUGH SECURITY
+TOMORROW ATTACK WE
+</pre>
+
+
+
+
+
+
+

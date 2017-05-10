@@ -1,0 +1,58 @@
+How Much?
+
+1000
+
+32768
+
+0
+
+0
+
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;financial&nbsp;crisis!&nbsp;Even&nbsp;MI6’s&nbsp;technology&nbsp;department&nbsp;does&nbsp;not&nbsp;escape&nbsp;the&nbsp;consequences.&nbsp;With&nbsp;all&nbsp;those&nbsp;constraints&nbsp;on&nbsp;the&nbsp;budget,&nbsp;how&nbsp;can&nbsp;R&nbsp;be&nbsp;expected&nbsp;to&nbsp;supply&nbsp;our&nbsp;spies&nbsp;with&nbsp;cars&nbsp;equipped&nbsp;with&nbsp;all&nbsp;the&nbsp;technological&nbsp;gadgets&nbsp;and&nbsp;weaponry&nbsp;they&nbsp;need&nbsp;to&nbsp;save&nbsp;the&nbsp;world?&nbsp;As&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;hard&nbsp;enough&nbsp;to&nbsp;put&nbsp;all&nbsp;those&nbsp;tracking&nbsp;systems,&nbsp;oil&nbsp;sprayers,&nbsp;guns,&nbsp;bullets&nbsp;and&nbsp;missiles&nbsp;in&nbsp;one&nbsp;car,&nbsp;now&nbsp;R&nbsp;has&nbsp;to&nbsp;worry&nbsp;about&nbsp;the&nbsp;costs&nbsp;as&nbsp;well.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;management&nbsp;insists,&nbsp;though:&nbsp;before&nbsp;R&nbsp;is&nbsp;allowed&nbsp;to&nbsp;order&nbsp;a&nbsp;car&nbsp;and&nbsp;all&nbsp;the&nbsp;parts&nbsp;he&nbsp;needs,&nbsp;he&nbsp;will&nbsp;first&nbsp;need&nbsp;to&nbsp;determine&nbsp;the&nbsp;exact&nbsp;amount&nbsp;of&nbsp;money&nbsp;that&nbsp;he&nbsp;needs.&nbsp;Management&nbsp;will&nbsp;then&nbsp;decide&nbsp;whether&nbsp;he&nbsp;gets&nbsp;to&nbsp;realize&nbsp;his&nbsp;vision&nbsp;or&nbsp;not.&nbsp;
+</p>
+<p>
+	This&nbsp;sort&nbsp;of&nbsp;bureaucratic&nbsp;nonsense&nbsp;is&nbsp;not&nbsp;something&nbsp;that&nbsp;R&nbsp;wants&nbsp;to&nbsp;waste&nbsp;any&nbsp;time&nbsp;on.&nbsp;He&nbsp;therefore&nbsp;wants&nbsp;you&nbsp;to&nbsp;help&nbsp;him.&nbsp;Given&nbsp;the&nbsp;price&nbsp;of&nbsp;the&nbsp;car,&nbsp;a&nbsp;listing&nbsp;of&nbsp;the&nbsp;parts&nbsp;R&nbsp;wants&nbsp;to&nbsp;install,&nbsp;and&nbsp;the&nbsp;price&nbsp;per&nbsp;piece&nbsp;of&nbsp;each&nbsp;part,&nbsp;work&nbsp;out&nbsp;what&nbsp;the&nbsp;total&nbsp;cost&nbsp;is&nbsp;of&nbsp;the&nbsp;project.&nbsp;
+</p>
+
+<p>
+	On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;After&nbsp;that&nbsp;per&nbsp;test
+</p>
+<p>
+	case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;an&nbsp;integer&nbsp;s&nbsp;(1&nbsp;&lt;=&nbsp;s&nbsp;&lt;=&nbsp;100&nbsp;000):&nbsp;the&nbsp;stock&nbsp;price&nbsp;of&nbsp;the&nbsp;car.
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;an&nbsp;integer&nbsp;n&nbsp;(0&nbsp;&lt;=&nbsp;n&nbsp;&lt;=&nbsp;1&nbsp;000):&nbsp;the&nbsp;number&nbsp;of&nbsp;different&nbsp;parts&nbsp;to&nbsp;be&nbsp;installed.
+</p>
+<p>
+	#&nbsp;n&nbsp;lines&nbsp;with&nbsp;two&nbsp;space-separated&nbsp;integers&nbsp;qi&nbsp;and&nbsp;pi&nbsp;(1&nbsp;&lt;=&nbsp;qi&nbsp;&lt;=&nbsp;100&nbsp;and&nbsp;1&nbsp;&lt;=&nbsp;pi&nbsp;&lt;=&nbsp;10&nbsp;000):&nbsp;for&nbsp;each&nbsp;different&nbsp;part&nbsp;i,&nbsp;the&nbsp;number&nbsp;of&nbsp;pieces&nbsp;qi&nbsp;required&nbsp;of&nbsp;such&nbsp;part,&nbsp;and&nbsp;the&nbsp;price&nbsp;pi&nbsp;for&nbsp;a&nbsp;single&nbsp;piece.
+</p>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;an&nbsp;integer:&nbsp;the&nbsp;total&nbsp;amount&nbsp;of&nbsp;money&nbsp;needed&nbsp;to&nbsp;buy&nbsp;the&nbsp;car&nbsp;and&nbsp;all&nbsp;the&nbsp;parts.
+</p>
+
+<pre>2
+10000
+2
+1 2000
+3 400
+50000
+0
+</pre>
+
+
+
+
+
+
+

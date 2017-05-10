@@ -1,0 +1,104 @@
+Bad Signa
+
+1000
+
+32768
+
+0
+
+0
+
+<div>
+	&nbsp; &nbsp;&nbsp;There is an important UN meeting in town. Any self-respecting espionage agency will try to&nbsp;<span style="line-height:1.5;">eavesdrop on the delegations to gain some advantage in the negotiations. They do this by&nbsp;</span><span style="line-height:1.5;">planting hidden microphones in and around the meeting places. Those microphones continuously capture sound waves and transmit them via radio.</span> 
+</div>
+<p>
+	&nbsp; &nbsp;&nbsp;In fact, fierce competition between espionage agencies has left the whole city scattered&nbsp;<span style="line-height:1.5;">with hidden microphones, so much so that the radio waves interfere with each other and it&nbsp;</span><span style="line-height:1.5;">is often not even possible to make out any signal in the mess of radio waves – depending on&nbsp;</span><span style="line-height:1.5;">your position and proximity to the different transmitters obviously.&nbsp;</span> 
+</p>
+<p>
+	<span style="line-height:1.5;">&nbsp; &nbsp;&nbsp;Specifically, it is possible to make out a signal i if and only if:</span> 
+</p>
+<p style="text-align:center;">
+	r<span style="line-height:1.5;">i &gt; 6(B + SUM(rj, j ≠ i)</span><span style="line-height:1.5;">)</span> 
+</p>
+<p>
+	<br />
+</p>
+<div>
+	Where:
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;# r<span style="line-height:1.5;">i =&nbsp;</span><span style="line-height:1.5;">s</span><span style="line-height:1.5;">i / |Pi - P_listen&nbsp;|^2 i</span><span style="line-height:1.5;">s the strength of the received signal of microphone i,</span> 
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;# s<span style="line-height:1.5;">i&nbsp;</span><span style="line-height:1.5;">is the strength of the signal sent from microphone i,</span> 
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;# Pi&nbsp;<span style="line-height:1.5;">is the position of microphone i,</span> 
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;# P_<span style="line-height:1.5;">listen&nbsp;</span><span style="line-height:1.5;">is the position where you are listening to the signals,</span> 
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;# |Pi &nbsp;- Pj| is the Euclidean distance between points Pi and Pj and
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;# B is the level of background noise.
+</div>
+
+<p>
+	&nbsp; &nbsp;&nbsp;On the first line one positive number: the number of test cases, at most 100.&nbsp;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;After that per test&nbsp;<span style="line-height:1.5;">case:</span> 
+</p>
+<div>
+	&nbsp; &nbsp;&nbsp;# one line with an integer n (0  &lt;=&nbsp;n &lt;= 100 000): the number of planted microphones.
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;# one line with the integer B (0  &lt;= B  &lt;= 1 000 000): the level of background noise.
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;# one line with two space-separated integers x and y: the x and y coordinates of the location P_<span style="line-height:1.5;">listen&nbsp;</span><span style="line-height:1.5;">where you receive the signals.</span> 
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;# n lines with three space-separated integers x<span style="line-height:1.5;">i</span><span style="line-height:1.5;">, y</span><span style="line-height:1.5;">i and s</span><span style="line-height:1.5;">i (0 &lt; si &lt;= 1 000 000): the x and y&nbsp;</span><span style="line-height:1.5;">coordinates of the location Pi&nbsp;</span><span style="line-height:1.5;">of microphone i and its signal strength,respectively.</span> 
+</div>
+<div>
+	&nbsp; &nbsp;&nbsp;All coordinates are in the range [0, 10 000]. The locations Pi all differ from P_<span style="line-height:1.5;">listen . The test&nbsp;</span><span style="line-height:1.5;">data is constructed so that small floating point rounding errors will not influence the outcome&nbsp;</span><span style="line-height:1.5;">of any solution.</span> 
+</div>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	&nbsp;one&nbsp;line&nbsp;with&nbsp;an&nbsp;integer:&nbsp;the&nbsp;(one-based)&nbsp;index&nbsp;of&nbsp;a&nbsp;microphone,&nbsp;the&nbsp;signal&nbsp;of&nbsp;which&nbsp;can&nbsp;<span style="line-height:1.5;">be&nbsp;made&nbsp;out,&nbsp;or&nbsp;the&nbsp;string&nbsp;“NOISE”&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;such&nbsp;microphone.</span>
+</p>
+
+<pre>3
+4
+10
+100 100
+90 90 20000
+110 90 50
+90 110 1000
+110 110 50
+4
+100
+100 100
+90 90 20000
+110 90 50
+90 110 1000
+110 110 50
+2
+0
+0 10
+0 0 1000
+0 8 1
+</pre>
+
+
+
+
+
+
+

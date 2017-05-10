@@ -1,0 +1,103 @@
+Dreaded Alternating Game
+
+2000
+
+65536
+
+0
+
+0
+
+<p>
+	&nbsp; &nbsp;&nbsp;To&nbsp;determine&nbsp;their&nbsp;social&nbsp;position,&nbsp;spies&nbsp;like&nbsp;to&nbsp;play&nbsp;games&nbsp;of&nbsp;wit&nbsp;and&nbsp;cunning.&nbsp;One&nbsp;of&nbsp;these&nbsp;<span style="line-height:1.5;">games&nbsp;is&nbsp;the&nbsp;dreaded&nbsp;alternating&nbsp;game.&nbsp;It&nbsp;is&nbsp;played&nbsp;by&nbsp;two&nbsp;players,&nbsp;who&nbsp;are&nbsp;called&nbsp;player&nbsp;even&nbsp;</span><span style="line-height:1.5;">and&nbsp;player&nbsp;odd.&nbsp;These&nbsp;strange&nbsp;player&nbsp;names&nbsp;are&nbsp;used&nbsp;to&nbsp;determine&nbsp;the&nbsp;winner&nbsp;of&nbsp;each&nbsp;game:</span><span style="line-height:1.5;">player&nbsp;even&nbsp;wins&nbsp;if&nbsp;the&nbsp;number&nbsp;of&nbsp;moves&nbsp;in&nbsp;the&nbsp;completed&nbsp;game&nbsp;was&nbsp;even,&nbsp;and&nbsp;similarly&nbsp;</span><span style="line-height:1.5;">player&nbsp;odd&nbsp;wins&nbsp;if&nbsp;the&nbsp;number&nbsp;of&nbsp;moves&nbsp;was&nbsp;odd.</span> 
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;Every&nbsp;game&nbsp;is&nbsp;played&nbsp;on&nbsp;a&nbsp;specially&nbsp;prepared&nbsp;game&nbsp;board,&nbsp;consisting&nbsp;of&nbsp;places&nbsp;and&nbsp;oneway&nbsp;connections&nbsp;between&nbsp;certain&nbsp;pairs&nbsp;of&nbsp;places.&nbsp;Every&nbsp;place&nbsp;is&nbsp;controlled&nbsp;by&nbsp;one&nbsp;of&nbsp;the&nbsp;two&nbsp;<span style="line-height:1.5;">players.&nbsp;The&nbsp;game&nbsp;starts&nbsp;by&nbsp;putting&nbsp;a&nbsp;token&nbsp;on&nbsp;the&nbsp;starting&nbsp;place&nbsp;of&nbsp;the&nbsp;game&nbsp;board.&nbsp;Every&nbsp;</span><span style="line-height:1.5;">turn,&nbsp;the&nbsp;player&nbsp;who&nbsp;controls&nbsp;the&nbsp;place&nbsp;where&nbsp;the&nbsp;token&nbsp;resides&nbsp;must&nbsp;make&nbsp;a&nbsp;move&nbsp;by&nbsp;moving&nbsp;</span><span style="line-height:1.5;">the&nbsp;token&nbsp;along&nbsp;one&nbsp;of&nbsp;the&nbsp;outgoing&nbsp;connections&nbsp;of&nbsp;that&nbsp;place.&nbsp;This&nbsp;continues&nbsp;until&nbsp;no&nbsp;more&nbsp;</span><span style="line-height:1.5;">move&nbsp;is&nbsp;possible,&nbsp;at&nbsp;which&nbsp;point&nbsp;the&nbsp;winner&nbsp;of&nbsp;the&nbsp;game&nbsp;is&nbsp;known.&nbsp;All&nbsp;game&nbsp;boards&nbsp;are&nbsp;</span><span style="line-height:1.5;">constructed&nbsp;such&nbsp;that&nbsp;infinite&nbsp;games&nbsp;are&nbsp;impossible.</span> 
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;The&nbsp;rules&nbsp;of&nbsp;the&nbsp;game&nbsp;state&nbsp;that&nbsp;both&nbsp;spies&nbsp;playing&nbsp;the&nbsp;game&nbsp;must&nbsp;come&nbsp;to&nbsp;an&nbsp;agreement&nbsp;<span style="line-height:1.5;">on&nbsp;which&nbsp;player&nbsp;each&nbsp;one&nbsp;will&nbsp;be.&nbsp;The&nbsp;spies&nbsp;have&nbsp;figured&nbsp;out&nbsp;that&nbsp;picking&nbsp;their&nbsp;player&nbsp;is&nbsp;the&nbsp;</span><span style="line-height:1.5;">most&nbsp;important&nbsp;part&nbsp;of&nbsp;the&nbsp;game.&nbsp;Special&nbsp;agent&nbsp;Walker&nbsp;wants&nbsp;to&nbsp;win&nbsp;every&nbsp;game&nbsp;she&nbsp;plays&nbsp;</span><span style="line-height:1.5;">to&nbsp;improve&nbsp;her&nbsp;social&nbsp;position.&nbsp;She&nbsp;can&nbsp;play&nbsp;the&nbsp;game&nbsp;perfectly&nbsp;if&nbsp;she&nbsp;knows&nbsp;which&nbsp;player&nbsp;</span><span style="line-height:1.5;">to&nbsp;pick&nbsp;at&nbsp;the&nbsp;start&nbsp;of&nbsp;the&nbsp;game.&nbsp;She&nbsp;developed&nbsp;a&nbsp;special&nbsp;set&nbsp;of&nbsp;skills&nbsp;to&nbsp;ensure&nbsp;that&nbsp;she&nbsp;will&nbsp;</span><span style="line-height:1.5;">always&nbsp;get&nbsp;to&nbsp;be&nbsp;the&nbsp;player&nbsp;she&nbsp;wants&nbsp;to&nbsp;be.&nbsp;It&nbsp;is&nbsp;your&nbsp;task&nbsp;to&nbsp;help&nbsp;her&nbsp;pick&nbsp;the&nbsp;best&nbsp;player&nbsp;for&nbsp;</span><span style="line-height:1.5;">a&nbsp;specific&nbsp;game&nbsp;board.&nbsp;Better&nbsp;make&nbsp;sure&nbsp;it&nbsp;is&nbsp;correct;&nbsp;you&nbsp;do&nbsp;not&nbsp;want&nbsp;to&nbsp;disappoint&nbsp;special&nbsp;</span><span style="line-height:1.5;">agent&nbsp;Walker.</span> 
+</p>
+<p style="text-align:center;">
+	<span style="line-height:1.5;"><img src="http://acm.hrbust.edu.cn/Public/problems_attached/image/20140414/20140414153240_20094.jpg" alt="" /><br />
+</span> 
+</p>
+<p>
+	<span style="line-height:1.5;"></span> 
+</p>
+<p>
+	A&nbsp;visual&nbsp;representation&nbsp;of&nbsp;the&nbsp;third&nbsp;sample.&nbsp;The&nbsp;dark&nbsp;circles&nbsp;indicate&nbsp;places&nbsp;controlled&nbsp;by&nbsp;the&nbsp;even&nbsp;<span style="line-height:1.5;">player.&nbsp;Despite&nbsp;having&nbsp;the&nbsp;first&nbsp;move,&nbsp;the&nbsp;odd&nbsp;player&nbsp;loses.&nbsp;If&nbsp;he&nbsp;moves&nbsp;the&nbsp;token&nbsp;from&nbsp;1&nbsp;to&nbsp;3,&nbsp;the&nbsp;even&nbsp;</span><span style="line-height:1.5;">player&nbsp;wins&nbsp;directly&nbsp;by&nbsp;moving&nbsp;the&nbsp;token&nbsp;to&nbsp;4.&nbsp;If&nbsp;the&nbsp;odd&nbsp;player&nbsp;moves&nbsp;the&nbsp;token&nbsp;to2,&nbsp;the&nbsp;even&nbsp;player&nbsp;</span><span style="line-height:1.5;">first&nbsp;moves&nbsp;the&nbsp;token&nbsp;to&nbsp;3&nbsp;(as&nbsp;he&nbsp;must)&nbsp;and&nbsp;then&nbsp;to&nbsp;5,&nbsp;after&nbsp;which&nbsp;the&nbsp;odd&nbsp;player&nbsp;is&nbsp;forced&nbsp;to&nbsp;move&nbsp;the&nbsp;</span><span style="line-height:1.5;">token&nbsp;to&nbsp;6&nbsp;and&nbsp;thus&nbsp;loses&nbsp;(four&nbsp;moves&nbsp;were&nbsp;made).&nbsp;Similarly,&nbsp;moving&nbsp;the&nbsp;token&nbsp;to&nbsp;5&nbsp;at&nbsp;the&nbsp;first&nbsp;move&nbsp;</span><span style="line-height:1.5;">leads&nbsp;to&nbsp;an&nbsp;automatic&nbsp;win&nbsp;for&nbsp;the&nbsp;even&nbsp;player.</span> 
+</p>
+<br />
+<p>
+	<br />
+</p>
+
+<p>
+	On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;
+</p>
+<p>
+	After&nbsp;that&nbsp;per&nbsp;test&nbsp;<span style="line-height:1.5;">case:</span> 
+</p>
+<p>
+	# one&nbsp;line&nbsp;with&nbsp;three&nbsp;space-separated&nbsp;integers&nbsp;n,&nbsp;c&nbsp;and&nbsp;s&nbsp;(1&nbsp; &lt;=&nbsp;n&nbsp; &lt;= 10&nbsp;000,&nbsp;0&nbsp;&lt;= c&nbsp; &lt;=100&nbsp;000&nbsp;<span style="line-height:1.5;">and&nbsp;1&nbsp; &lt;= s &lt;=&nbsp;n):&nbsp;the&nbsp;number&nbsp;of&nbsp;places,&nbsp;the&nbsp;number&nbsp;of&nbsp;connections&nbsp;on&nbsp;the&nbsp;game&nbsp;board,&nbsp;</span><span style="line-height:1.5;">and&nbsp;the&nbsp;starting&nbsp;place&nbsp;of&nbsp;the&nbsp;game,&nbsp;respectively.</span> 
+</p>
+<p>
+	<span style="line-height:1.5;"># n&nbsp;lines&nbsp;with&nbsp;an&nbsp;integer&nbsp;p</span><span style="line-height:1.5;">i</span><span style="line-height:1.5;">:&nbsp;the&nbsp;player&nbsp;controlling&nbsp;place&nbsp;i,&nbsp;using&nbsp;0&nbsp;for&nbsp;player&nbsp;even&nbsp;and&nbsp;1&nbsp;</span><span style="line-height:1.5;">for&nbsp;player&nbsp;odd.</span> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	#&nbsp;c&nbsp;lines&nbsp;with&nbsp;two&nbsp;space-separated&nbsp;integers&nbsp;a&nbsp;and&nbsp;b&nbsp;(1&nbsp; &lt;=&nbsp;a,&nbsp;b &lt;=&nbsp;n),&nbsp;indicating&nbsp;a&nbsp;connection&nbsp;<span style="line-height:1.5;">from&nbsp;place&nbsp;a&nbsp;to&nbsp;place&nbsp;b.</span> 
+</p>
+<p>
+	<br />
+</p>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;either&nbsp;0&nbsp;or&nbsp;1,&nbsp;indicating&nbsp;the&nbsp;player&nbsp;that&nbsp;special&nbsp;agent&nbsp;Walker&nbsp;should&nbsp;choose&nbsp;in&nbsp;order&nbsp;to&nbsp;win.
+</p>
+
+<pre>3
+2 1 1
+0
+1
+1 2
+6 6 1
+1
+0
+1
+1
+1
+0
+1 2
+2 3
+2 5
+3 4
+4 6
+5 6
+6 7 1
+1
+0
+0
+1
+1
+0
+1 2
+1 3
+1 5
+2 3
+3 4
+3 5
+5 6
+</pre>
+
+
+
+
+
+
+

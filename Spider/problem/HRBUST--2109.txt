@@ -1,0 +1,61 @@
+Just Enough Space
+
+5000
+
+32768
+
+0
+
+0
+
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;After&nbsp;a&nbsp;PR&nbsp;mishap&nbsp;with&nbsp;a&nbsp;former&nbsp;employee,&nbsp;the&nbsp;NSA&nbsp;might&nbsp;need&nbsp;to&nbsp;increase&nbsp;storage&nbsp;in&nbsp;one&nbsp;of&nbsp;their&nbsp;datacenters:&nbsp;the&nbsp;Russian&nbsp;and&nbsp;Spanish&nbsp;translators&nbsp;have&nbsp;a&nbsp;backlog,&nbsp;and&nbsp;the&nbsp;captured&nbsp;phone&nbsp;conversations&nbsp;need&nbsp;to&nbsp;be&nbsp;stored&nbsp;in&nbsp;the&nbsp;meantime.&nbsp;Up&nbsp;to&nbsp;1&nbsp;exabyte&nbsp;of&nbsp;data&nbsp;needs&nbsp;to&nbsp;be&nbsp;stored.&nbsp;Unfortunately,&nbsp;there&nbsp;is&nbsp;currently&nbsp;no&nbsp;extra&nbsp;storage&nbsp;available&nbsp;at&nbsp;all.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;Due&nbsp;to&nbsp;budget&nbsp;limitations,&nbsp;it&nbsp;is&nbsp;not&nbsp;possible&nbsp;to&nbsp;immediately&nbsp;buy&nbsp;new&nbsp;disks,&nbsp;and&nbsp;the&nbsp;system&nbsp;administrator&nbsp;(you)&nbsp;wants&nbsp;to&nbsp;solve&nbsp;this&nbsp;by&nbsp;reducing&nbsp;the&nbsp;data&nbsp;redundancy.&nbsp;For&nbsp;performance&nbsp;and&nbsp;reliability,&nbsp;all&nbsp;data&nbsp;is&nbsp;currently&nbsp;on&nbsp;large&nbsp;RAID-1&nbsp;sets&nbsp;of&nbsp;four&nbsp;disks&nbsp;in&nbsp;each&nbsp;server.&nbsp;More&nbsp;data&nbsp;can&nbsp;be&nbsp;stored&nbsp;by&nbsp;converting&nbsp;some&nbsp;of&nbsp;these&nbsp;sets&nbsp;to&nbsp;the&nbsp;slower&nbsp;RAID-5&nbsp;technique.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;Specifically,&nbsp;there&nbsp;are&nbsp;currently&nbsp;n&nbsp;RAID-1&nbsp;sets.&nbsp;Each&nbsp;set&nbsp;i&nbsp;is&nbsp;built&nbsp;using&nbsp;disks&nbsp;of&nbsp;size&nbsp;Si&nbsp;,&nbsp;and&nbsp;this&nbsp;set&nbsp;can&nbsp;hold&nbsp;Si&nbsp;GB&nbsp;of&nbsp;data.&nbsp;If&nbsp;you&nbsp;convert&nbsp;one&nbsp;set&nbsp;to&nbsp;RAID-5,&nbsp;it&nbsp;can&nbsp;hold&nbsp;three&nbsp;times&nbsp;as&nbsp;much&nbsp;data:&nbsp;3&nbsp;*&nbsp;Si&nbsp;GB.&nbsp;You&nbsp;want&nbsp;to&nbsp;convert&nbsp;as&nbsp;few&nbsp;GBs&nbsp;of&nbsp;storage&nbsp;as&nbsp;possible.
+</p>
+<p>
+	<br />
+</p>
+<p style="text-align:center;">
+	<img src="http://acm.hrbust.edu.cn/Public/problems_attached/image/20140414/20140414161030_53458.jpg" width="760" height="181" alt="" /> 
+</p>
+
+<p>
+	On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;
+</p>
+<p>
+	After&nbsp;that&nbsp;per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;two&nbsp;space-separated&nbsp;integers&nbsp;n&nbsp;and&nbsp;e&nbsp;(1&nbsp;&lt;=&nbsp;n&nbsp;&lt;=&nbsp;100&nbsp;and&nbsp;0&nbsp;&lt;=&nbsp;e&nbsp;&lt;=&nbsp;1&nbsp;000&nbsp;000&nbsp;000):&nbsp;the&nbsp;number&nbsp;of&nbsp;RAID-1&nbsp;sets,&nbsp;and&nbsp;the&nbsp;amount&nbsp;of&nbsp;extra&nbsp;space&nbsp;in&nbsp;GB&nbsp;required,&nbsp;respectively.
+</p>
+<p>
+	#one&nbsp;line&nbsp;with&nbsp;n&nbsp;space-separated&nbsp;integers&nbsp;S1...Sn&nbsp;(1&nbsp;&lt;=&nbsp;Si&nbsp;&lt;=&nbsp;2&nbsp;000):&nbsp;the&nbsp;sizes&nbsp;of&nbsp;all&nbsp;raid&nbsp;sets&nbsp;in&nbsp;GB.
+</p>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#one&nbsp;line&nbsp;with&nbsp;an&nbsp;integer:&nbsp;the&nbsp;number&nbsp;of&nbsp;GB&nbsp;you&nbsp;need&nbsp;to&nbsp;convert,&nbsp;or&nbsp;the&nbsp;string&nbsp;“FULL”&nbsp;if&nbsp;not&nbsp;enough&nbsp;diskspace&nbsp;can&nbsp;be&nbsp;freed.
+</p>
+
+<pre>3
+2 500
+500 500
+4 2400
+400 600 700 1000
+2 1000
+10 10
+</pre>
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+Fare Dodging
+
+2000
+
+32768
+
+0
+
+0
+
+<p>
+	&nbsp;&nbsp;&nbsp;Virgil&nbsp;is&nbsp;a&nbsp;loyal&nbsp;employee&nbsp;at&nbsp;a&nbsp;mysterious&nbsp;national&nbsp;security&nbsp;agency.&nbsp;He&nbsp;has&nbsp;a&nbsp;long&nbsp;commute&nbsp;to&nbsp;work&nbsp;by&nbsp;train&nbsp;every&nbsp;day,&nbsp;during&nbsp;which&nbsp;his&nbsp;mind&nbsp;is&nbsp;free&nbsp;to&nbsp;ponder&nbsp;his&nbsp;situation&nbsp;and&nbsp;the&nbsp;facts&nbsp;of&nbsp;life.&nbsp;Always&nbsp;the&nbsp;mathematician,&nbsp;he&nbsp;notices&nbsp;that,&nbsp;although&nbsp;he&nbsp;pays&nbsp;the&nbsp;fares&nbsp;for&nbsp;his&nbsp;journeys&nbsp;without&nbsp;fail,&nbsp;the&nbsp;conductors&nbsp;rarely&nbsp;check&nbsp;his&nbsp;tickets.&nbsp;In&nbsp;fact,&nbsp;through&nbsp;his&nbsp;years&nbsp;of&nbsp;experience&nbsp;he&nbsp;has&nbsp;a&nbsp;pretty&nbsp;good&nbsp;idea&nbsp;of&nbsp;what&nbsp;the&nbsp;chances&nbsp;are&nbsp;of&nbsp;being&nbsp;checked&nbsp;per&nbsp;section&nbsp;between&nbsp;each&nbsp;pair&nbsp;of&nbsp;cities.
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;Maybe&nbsp;he&nbsp;could&nbsp;just&nbsp;dodge&nbsp;the&nbsp;fares?&nbsp;Of&nbsp;course,&nbsp;if&nbsp;he&nbsp;gets&nbsp;caught&nbsp;in&nbsp;the&nbsp;train&nbsp;without&nbsp;a&nbsp;ticket&nbsp;he&nbsp;has&nbsp;to&nbsp;pay&nbsp;a&nbsp;fine&nbsp;that&nbsp;will&nbsp;be&nbsp;much&nbsp;higher&nbsp;than&nbsp;the&nbsp;cost&nbsp;of&nbsp;a&nbsp;ticket&nbsp;would&nbsp;have&nbsp;been.&nbsp;But&nbsp;still...&nbsp;Perhaps&nbsp;it’s&nbsp;cheaper&nbsp;to&nbsp;not&nbsp;pay&nbsp;for&nbsp;(part&nbsp;of)&nbsp;the&nbsp;journey&nbsp;and&nbsp;pay&nbsp;the&nbsp;fines&nbsp;if&nbsp;and&nbsp;when&nbsp;he&nbsp;does&nbsp;get&nbsp;caught.&nbsp;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;A&nbsp;ticket&nbsp;from&nbsp;city&nbsp;A&nbsp;to&nbsp;city&nbsp;B&nbsp;costs&nbsp;a&nbsp;certain&nbsp;start&nbsp;up&nbsp;cost&nbsp;s,&nbsp;plus&nbsp;a&nbsp;small&nbsp;amount&nbsp;p&nbsp;per&nbsp;kilometer&nbsp;on&nbsp;a&nbsp;shortest&nbsp;route&nbsp;between&nbsp;city&nbsp;A&nbsp;and&nbsp;B&nbsp;(the&nbsp;ticket&nbsp;is&nbsp;only&nbsp;valid&nbsp;on&nbsp;a&nbsp;shortest&nbsp;route).&nbsp;If&nbsp;you&nbsp;get&nbsp;caught&nbsp;without&nbsp;a&nbsp;ticket,&nbsp;you&nbsp;have&nbsp;to&nbsp;pay&nbsp;a&nbsp;fine&nbsp;consisting&nbsp;of&nbsp;a&nbsp;constant&nbsp;y&nbsp;plus&nbsp;the&nbsp;small&nbsp;amount&nbsp;p&nbsp;per&nbsp;kilometer&nbsp;on&nbsp;the&nbsp;section&nbsp;of&nbsp;railway&nbsp;from&nbsp;the&nbsp;last&nbsp;city&nbsp;the&nbsp;train&nbsp;visited&nbsp;to&nbsp;the&nbsp;next&nbsp;city.&nbsp;The&nbsp;regulations&nbsp;dictate&nbsp;that&nbsp;you&nbsp;have&nbsp;to&nbsp;get&nbsp;off&nbsp;at&nbsp;the&nbsp;next&nbsp;stop&nbsp;if&nbsp;you&nbsp;get&nbsp;caught&nbsp;fare&nbsp;dodging,&nbsp;but&nbsp;being&nbsp;an&nbsp;employee&nbsp;of&nbsp;such&nbsp;a&nbsp;mysterious&nbsp;agency,&nbsp;Virgil&nbsp;is&nbsp;a&nbsp;master&nbsp;of&nbsp;disguise:&nbsp;the&nbsp;conductors&nbsp;will&nbsp;never&nbsp;recognise&nbsp;him&nbsp;and&nbsp;he&nbsp;can&nbsp;continue&nbsp;his&nbsp;journey&nbsp;as&nbsp;if&nbsp;he&nbsp;was&nbsp;never&nbsp;busted.
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;Help&nbsp;Virgil&nbsp;write&nbsp;a&nbsp;computer&nbsp;program&nbsp;that&nbsp;–&nbsp;based&nbsp;on&nbsp;his&nbsp;experience&nbsp;–&nbsp;calculates&nbsp;the&nbsp;route&nbsp;and&nbsp;which&nbsp;tickets&nbsp;to&nbsp;buy&nbsp;so&nbsp;that&nbsp;his&nbsp;expected&nbsp;daily&nbsp;costs[hint 1]&nbsp;are&nbsp;as&nbsp;small&nbsp;as&nbsp;possible.
+</p>
+<p style="text-align:center;">
+	<img src="http://acm.hrbust.edu.cn/Public/problems_attached/image/20140414/20140414154725_40387.jpg" alt="" /> 
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;visual&nbsp;representation&nbsp;of&nbsp;the&nbsp;third&nbsp;sample.&nbsp;The&nbsp;best&nbsp;route&nbsp;from&nbsp;1&nbsp;to&nbsp;4&nbsp;is&nbsp;to&nbsp;buy&nbsp;a&nbsp;ticket&nbsp;for&nbsp;section&nbsp;1&nbsp;to&nbsp;2&nbsp;for&nbsp;a&nbsp;cost&nbsp;of&nbsp;20&nbsp;(10&nbsp;+&nbsp;1&nbsp;x&nbsp;10),&nbsp;then&nbsp;dodge&nbsp;the&nbsp;fares&nbsp;for&nbsp;section&nbsp;2&nbsp;to&nbsp;3&nbsp;for&nbsp;an&nbsp;expected&nbsp;cost&nbsp;of&nbsp;22&nbsp;(0.1&nbsp;x&nbsp;(100&nbsp;+&nbsp;1&nbsp;x&nbsp;120)),&nbsp;and&nbsp;finally&nbsp;buy&nbsp;a&nbsp;ticket&nbsp;for&nbsp;section&nbsp;3&nbsp;to&nbsp;4&nbsp;for&nbsp;a&nbsp;cost&nbsp;of&nbsp;20&nbsp;(10&nbsp;+&nbsp;1&nbsp;x&nbsp;10).&nbsp;This&nbsp;leads&nbsp;to&nbsp;a&nbsp;total&nbsp;expected&nbsp;cost&nbsp;of&nbsp;62&nbsp;(20&nbsp;+&nbsp;22&nbsp;+&nbsp;20)&nbsp;which&nbsp;is&nbsp;the&nbsp;best&nbsp;possible&nbsp;for&nbsp;this&nbsp;rail&nbsp;network.
+</p>
+
+<p>
+	On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;After&nbsp;that&nbsp;per&nbsp;test
+</p>
+<p>
+	case:
+</p>
+<p>
+	#&nbsp;one&nbsp;line&nbsp;with&nbsp;seven&nbsp;space-separated&nbsp;integers:&nbsp;
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;##&nbsp;n&nbsp;(2&nbsp;&lt;=&nbsp;n&nbsp;&lt;=&nbsp;200):&nbsp;the&nbsp;number&nbsp;of&nbsp;cities&nbsp;in&nbsp;the&nbsp;rail&nbsp;network;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;m&nbsp;(1&nbsp;&lt;=&nbsp;m&nbsp;&lt;=&nbsp;n(n&nbsp;&nbsp;&nbsp;1)=2):&nbsp;the&nbsp;number&nbsp;of&nbsp;direct&nbsp;connections&nbsp;in&nbsp;the&nbsp;rail&nbsp;network;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;start&nbsp;(1&nbsp;&lt;=&nbsp;start&nbsp;&lt;=&nbsp;n):&nbsp;the&nbsp;index&nbsp;of&nbsp;the&nbsp;city&nbsp;that&nbsp;Virgil&nbsp;lives&nbsp;in;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;end&nbsp;(1&nbsp;&lt;=&nbsp;end&nbsp;&lt;=&nbsp;n,&nbsp;start&nbsp;6&nbsp;=&nbsp;end):&nbsp;the&nbsp;index&nbsp;of&nbsp;the&nbsp;city&nbsp;that&nbsp;Virgil&nbsp;works&nbsp;at;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;s&nbsp;(1&nbsp;&lt;=&nbsp;s&nbsp;&lt;=&nbsp;1&nbsp;000):&nbsp;the&nbsp;start&nbsp;up&nbsp;cost&nbsp;of&nbsp;a&nbsp;ticket;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;p&nbsp;(1&nbsp;&lt;=&nbsp;p&nbsp;&lt;=&nbsp;1&nbsp;000):&nbsp;the&nbsp;cost&nbsp;per&nbsp;kilometer&nbsp;of&nbsp;a&nbsp;ticket&nbsp;or&nbsp;fine;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;y&nbsp;(s&nbsp;&lt;&nbsp;y&nbsp;&lt;=&nbsp;1&nbsp;000):&nbsp;the&nbsp;constant&nbsp;part&nbsp;of&nbsp;a&nbsp;fine.
+</p>
+<p>
+	<span style="line-height:1.5;">#&nbsp;m&nbsp;lines&nbsp;with&nbsp;four&nbsp;space-separated&nbsp;integers,&nbsp;describing&nbsp;the&nbsp;bidirectional&nbsp;sections&nbsp;between&nbsp;cities,&nbsp;with&nbsp;on&nbsp;line&nbsp;i:</span> 
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;ai&nbsp;(1&nbsp;&lt;=&nbsp;ai&nbsp;&lt;=&nbsp;n):&nbsp;the&nbsp;index&nbsp;of&nbsp;one&nbsp;city&nbsp;on&nbsp;the&nbsp;end&nbsp;of&nbsp;section&nbsp;i;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;bi&nbsp;(ai&nbsp;&lt;&nbsp;bi&nbsp;&lt;=&nbsp;n):&nbsp;the&nbsp;index&nbsp;of&nbsp;the&nbsp;other&nbsp;city&nbsp;of&nbsp;section&nbsp;i;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;ci&nbsp;(0&nbsp;&lt;=&nbsp;ci&nbsp;&lt;=&nbsp;100):&nbsp;the&nbsp;probability&nbsp;that&nbsp;a&nbsp;conductor&nbsp;will&nbsp;check&nbsp;your&nbsp;ticket&nbsp;on&nbsp;section&nbsp;i,&nbsp;expressed&nbsp;as&nbsp;a&nbsp;percentage;
+</p>
+<p>
+	&nbsp; &nbsp;&nbsp;##&nbsp;di&nbsp;(1&nbsp;&lt;=&nbsp;di&nbsp;&lt;=&nbsp;1&nbsp;000):&nbsp;the&nbsp;distance&nbsp;traveled&nbsp;along&nbsp;section&nbsp;i&nbsp;between&nbsp;city&nbsp;ai&nbsp;and&nbsp;bi&nbsp;in&nbsp;kilometers;
+</p>
+<p>
+	<span style="line-height:1.5;">&nbsp; &nbsp; For&nbsp;any&nbsp;two&nbsp;pairs&nbsp;(ai,&nbsp;bi)&nbsp;and&nbsp;(aj,&nbsp;bj)&nbsp;with&nbsp;i&nbsp;6&nbsp;=&nbsp;j&nbsp;,&nbsp;we&nbsp;have&nbsp;that&nbsp;(ai,&nbsp;bi)&nbsp;6&nbsp;=&nbsp;(aj,&nbsp;bj).</span> 
+</p>
+
+<p>
+	Per&nbsp;test&nbsp;case:
+</p>
+<p>
+	#&nbsp;the&nbsp;lowest&nbsp;possible&nbsp;expected&nbsp;costs&nbsp;for&nbsp;a&nbsp;single&nbsp;trip&nbsp;between&nbsp;city&nbsp;start&nbsp;and&nbsp;end,&nbsp;rounded&nbsp;to&nbsp;exactly&nbsp;two&nbsp;decimals.
+</p>
+<p>
+	The&nbsp;test&nbsp;cases&nbsp;are&nbsp;such&nbsp;that&nbsp;an&nbsp;absolute&nbsp;error&nbsp;of&nbsp;at&nbsp;most&nbsp;1e-6&nbsp;in&nbsp;the&nbsp;final&nbsp;answer&nbsp;does&nbsp;not&nbsp;influence&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;rounding.
+</p>
+
+<pre>3
+2 1 1 2 10 1 100
+1 2 20 50
+2 1 1 2 10 1 100
+1 2 60 50
+4 4 1 4 10 1 100
+1 4 50 90
+1 2 90 10
+2 3 10 120
+3 4 90 10
+</pre>
+
+
+
+
+
+
+

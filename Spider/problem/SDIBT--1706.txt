@@ -1,0 +1,56 @@
+Cousins
+
+1000
+
+128000
+
+0
+
+0
+
+<p>Two strings</p>
+<i>a</i>
+<p>and</p>
+<i>b</i>
+<p>are defined to be</p>
+<i>first cousins</i>
+<p>if they can be made equal by removing no more than half the characters from each. For example &quot;abcdef&quot; and &quot;axcyd&quot; are first cousins because we can remove 3 of the 6 characters (b,e,f) from the first string and 2 of the 5 characters in the second string (x,y) resulting in &quot;acd&quot;.  Two strings</p>
+<i>c</i>
+<p>and</p>
+<i>d</i>
+<p>are said to be n+1</p>
+<i>st cousins</i>
+<p>if there exists a string</p>
+<i>e</i>
+<p>that is a first cousin of</p>
+<i>c</i>
+<p>and is an n</p>
+<i>th</i>
+<p>cousin of</p>
+<i>d</i>
+<p>.</p>
+<p>Given two strings <i>x</i> and <i>y</i>, determine the smallest <i>n&nbsp;&ge;&nbsp;1</i> such that <i>x</i> is an n<i>th</i> cousin of <i>y</i>.</p>
+<p>Input consists of several test cases.  Each test case consists of two lines representing <i>x</i> and <i>y</i>.  <i>x</i> and <i>y</i>  each consist of at least 1 and at most 100 lower case letters.   Two lines containing 0 follow the last test case. For each test case, output a line containing <i>n</i> or  <b>not related</b> if <i>x</i> and <i>y</i> are not n<i>th</i> cousins for any <i>n</i>.</p>
+
+
+
+
+
+a
+b
+abb
+baa
+abcdef
+axcyd
+0
+0
+
+
+2
+2
+1
+
+24 September, 2006 - Waterloo local contest
+
+
+

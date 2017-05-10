@@ -1,0 +1,38 @@
+Sum Problem
+
+1000
+
+65536
+
+0
+
+0
+
+<p>
+	In this problem, your task is to calculate SUM(n) = 1 + 2 + 3 + ... + n.</p>
+
+
+<p>
+	The input will consist of a series of integers n, one integer per line.</p>
+
+
+<p>
+	For each case, output SUM(n) in one line. You can assume the result will be in the range of 32-bit signed integer.</p>
+<p>
+	Process to the end of file.</p>
+
+
+<p>
+	1<br />
+	100</p>
+
+
+<p>
+	1<br />
+	5050</p>
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+Area Coverage
+
+7000
+
+65536
+
+0
+
+0
+
+<p>
+	<span style="font-size:14px;">&nbsp; &nbsp;&nbsp;In&nbsp;this&nbsp;day&nbsp;and&nbsp;age,&nbsp;a&nbsp;lot&nbsp;of&nbsp;the&nbsp;spying&nbsp;on&nbsp;other&nbsp;countries&nbsp;is&nbsp;done&nbsp;with&nbsp;the&nbsp;use&nbsp;of&nbsp;satellites&nbsp;</span><span style="font-size:14px;line-height:1.5;">and&nbsp;drones&nbsp;equipped&nbsp;with&nbsp;cameras.&nbsp;All&nbsp;these&nbsp;photographs&nbsp;of&nbsp;various&nbsp;sizes&nbsp;and&nbsp;from&nbsp;various&nbsp;</span><span style="font-size:14px;line-height:1.5;">sources&nbsp;can&nbsp;be&nbsp;combined&nbsp;to&nbsp;give&nbsp;a&nbsp;picture&nbsp;of&nbsp;the&nbsp;country&nbsp;as&nbsp;a&nbsp;whole.</span>
+</p>
+<p>
+	<span style="font-size:14px;line-height:1.5;">&nbsp; &nbsp;&nbsp;Given&nbsp;the&nbsp;photographs&nbsp;(that&nbsp;is&nbsp;to&nbsp;say,&nbsp;the&nbsp;rectangular&nbsp;area&nbsp;covered&nbsp;by&nbsp;each,&nbsp;since&nbsp;the&nbsp;</span><span style="font-size:14px;line-height:1.5;">contents&nbsp;of&nbsp;the&nbsp;photographs&nbsp;themselves&nbsp;are&nbsp;of&nbsp;course&nbsp;top-secret!),&nbsp;can&nbsp;you&nbsp;work&nbsp;out&nbsp;what&nbsp;</span><span style="font-size:14px;line-height:1.5;">the&nbsp;total&nbsp;area&nbsp;is&nbsp;of&nbsp;all&nbsp;that&nbsp;is&nbsp;photographed?&nbsp;Note&nbsp;that&nbsp;certain&nbsp;areas&nbsp;can&nbsp;appear&nbsp;on&nbsp;multiple&nbsp;</span><span style="font-size:14px;line-height:1.5;">photographs&nbsp;and&nbsp;should&nbsp;be&nbsp;counted&nbsp;only&nbsp;once.</span> 
+</p>
+
+<p>
+	<span style="font-size:14px;"> On&nbsp;the&nbsp;first&nbsp;line&nbsp;one&nbsp;positive&nbsp;number:&nbsp;the&nbsp;number&nbsp;of&nbsp;test&nbsp;cases,&nbsp;at&nbsp;most&nbsp;100.&nbsp;</span> 
+</p>
+<p>
+	<span style="font-size:14px;line-height:1.5;"> After&nbsp;that&nbsp;per&nbsp;test&nbsp;case:</span> 
+</p>
+<p>
+	<span style="font-size:14px;"> #&nbsp;one&nbsp;line&nbsp;with&nbsp;an&nbsp;integer&nbsp;n&nbsp;(1&nbsp;&lt;=&nbsp;n&nbsp;&lt;=&nbsp;1000):&nbsp;the&nbsp;number&nbsp;of&nbsp;photographs.</span> 
+</p>
+<p>
+	<span style="font-size:14px;"> #&nbsp;n&nbsp;lines&nbsp;with&nbsp;four&nbsp;space-separated&nbsp;integers&nbsp;x1,&nbsp;y1,&nbsp;x2&nbsp;and&nbsp;y2(0&nbsp;&lt;=&nbsp;x1,&nbsp;y1,&nbsp;x2,&nbsp;y2&nbsp;&lt;=&nbsp;1&nbsp;000&nbsp;000,&nbsp;x1&nbsp;&lt;&nbsp;x2&nbsp;and&nbsp;y1&nbsp;&lt;&nbsp;y2):&nbsp;the&nbsp;coordinates&nbsp;of&nbsp;the&nbsp;southwest&nbsp;and&nbsp;northeast&nbsp;corner,&nbsp;respectively,&nbsp;of&nbsp;each&nbsp;photograph.&nbsp;The&nbsp;photographs&nbsp;are&nbsp;all&nbsp;rectangular&nbsp;in&nbsp;shape&nbsp;with&nbsp;their&nbsp;other&nbsp;corners&nbsp;at&nbsp;(x1,&nbsp;y2)&nbsp;and&nbsp;(x2,&nbsp;y1).</span> 
+</p>
+<p>
+	<span style="font-size:14px;"> The&nbsp;coordinates&nbsp;correspond&nbsp;to&nbsp;a&nbsp;flat&nbsp;two-dimensional&nbsp;space&nbsp;(i.e.&nbsp;we&nbsp;assume&nbsp;the&nbsp;Earth&nbsp;to&nbsp;be&nbsp;</span><span style="line-height:1.5;font-size:14px;">flat).</span> 
+</p>
+
+<div>
+	<span style="font-size:14px;">Per test case:</span> 
+</div>
+<div>
+	<span> </span><span style="font-size:14px;"># one line with an integer: the total area of all that appears on the photographs.</span> 
+</div>
+
+<pre>2
+3
+0 6 20 16
+14 0 24 10
+50 50 60 60
+2
+0 0 20 10
+10 4 14 8
+</pre>
+
+
+
+
+
+
+

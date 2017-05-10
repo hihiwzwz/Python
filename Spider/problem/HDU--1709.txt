@@ -1,0 +1,29 @@
+The Balance
+
+1000
+
+32768
+
+0
+
+0
+
+Now you are asked to measure a dose of medicine with a balance and a number of weights. Certainly it is not always achievable. So you should find out the qualities which cannot be measured from the range [1,S]. S is the total quality of all the weights.<br>
+
+The input consists of multiple test cases, and each case begins with a single positive integer N (1&lt;=N&lt;=100) on a line by itself indicating the number of weights you have. Followed by N integers Ai (1&lt;=i&lt;=N), indicating the quality of each weight where 1&lt;=Ai&lt;=100.<br>
+
+For each input set, you should first print a line specifying the number of qualities which cannot be measured. Then print another line which consists all the irrealizable qualities if the number is not zero.<br>
+
+3
+1 2 4
+3
+9 2 1
+
+0
+2
+4 5
+
+HDU 2007-Spring Programming Contest 
+
+
+

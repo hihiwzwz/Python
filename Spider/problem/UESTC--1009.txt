@@ -1,0 +1,30 @@
+Rightmost Digit
+
+1000
+
+65535
+
+0
+
+0
+
+Given a positive integer $N$, you should output the most right digit of $N^N$.
+
+The input contains several test cases. The first line of the input is a single integer $T$ which is the number of test cases. $T$ test cases follow.
+
+Each test case contains a single positive integer $N(1 \leq N \leq 1,000,000,000)$.
+
+For each test case, you should output the rightmost digit of $N^N$.
+
+2
+3
+4
+
+7
+6
+
+
+HDU
+
+
+
